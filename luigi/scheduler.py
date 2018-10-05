@@ -942,7 +942,8 @@ class Scheduler(object):
 
     @rpc_method()
     def disable_worker(self, worker):
-        self._state.disable_workers({worker})
+        # self._state.disable_workers({worker})
+        self._state.inactivate_workers({worker})
 
     @rpc_method()
     def set_worker_processes(self, worker, n):
