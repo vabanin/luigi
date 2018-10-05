@@ -55,11 +55,11 @@ if sys.version_info < (3, 4):
 
 setup(
     name='luigi',
-    version='2.7.9',
+    version='2.7.10',
     description='Workflow mgmgt + task scheduling + dependency resolution',
     long_description=long_description,
     author='The Luigi Authors',
-    url='https://github.com/spotify/luigi',
+    url='https://github.com/vabanin/luigi',
     license='Apache License 2.0',
     packages=[
         'luigi',
